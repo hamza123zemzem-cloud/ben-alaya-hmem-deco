@@ -1,0 +1,105 @@
+import { Product } from '@/types'
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Cuisine Noire Laquée Premium',
+    description: 'Cuisine moderne avec façades noires brillantes, îlot central spacieux et plan de travail marbre. Design haut de gamme avec finition irréprochable.',
+    category: 'cuisine',
+    image: '/images/cuisine/cuisine-noire-1.jpg',
+  },
+  {
+    id: 2,
+    name: 'Cuisine Bicolore Noir & Blanc',
+    description: 'Mélange élégant de façades blanches et noires avec éclairage LED intégré au plafond suspendu. Rangements ouverts design.',
+    category: 'cuisine',
+    image: '/images/cuisine/cuisine-bicolore.jpg',
+  },
+  {
+    id: 3,
+    name: 'Cuisine Blanche Minimaliste',
+    description: 'Design épuré avec façades blanches brillantes, électroménagers intégrés et rangements ouverts. Style contemporain lumineuse.',
+    category: 'cuisine',
+    image: '/images/cuisine/cuisine-blanche.jpg',
+  },
+  {
+    id: 4,
+    name: 'Cuisine Grise & Blanche',
+    description: 'Combinaison subtile de gris moderne et blanc pur avec îlot central et plan de travail clair. Finition premium et très fonctionnelle.',
+    category: 'cuisine',
+    image: '/images/cuisine/cuisine-grise.jpg',
+  },
+  {
+    id: 5,
+    name: 'Dressing Blanc Pur',
+    description: 'Dressing spacieux avec portes coulissantes blanches brillantes, miroir intégré et rangements optimisés. Parfait pour chambre moderne.',
+    category: 'dressing',
+    image: '/images/dressing/dressing-blanc.jpg',
+  },
+  {
+    id: 6,
+    name: 'Dressing Gris Bois',
+    description: 'Dressing moderne avec portes coulissantes gris anthracite style bois, étagères métalliques et éclairage LED intérieur.',
+    category: 'dressing',
+    image: '/images/dressing/dressing-gris-bois.jpg',
+  },
+  {
+    id: 7,
+    name: 'Porte Intérieure Bois Chêne',
+    description: 'Porte pivotante en bois naturel chêne avec rainures verticales design. Encadrement massif et style contemporain élégant.',
+    category: 'porte-interieur',
+    image: '/images/porte/porte-bois-naturel.jpg',
+  },
+  {
+    id: 8,
+    name: 'Porte Intérieure Bois Moderne',
+    description: 'Porte intérieure en bois avec design épuré, cadre massif et finition lisse. Finition premium adaptée à tous les intérieurs.',
+    category: 'porte-interieur',
+    image: '/images/porte/porte-bois-moderne.jpg',
+  },
+  {
+    id: 9,
+    name: 'Porte Pivotante Vitrage Design',
+    description: 'Porte pivotante en aluminium noir avec vitrage en grille 8 carreaux. Style moderne et très lumineux.',
+    category: 'porte-pivotante',
+    image: '/images/porte/porte-pivotante.jpg',
+  },
+  {
+    id: 10,
+    name: 'Porte Aluminium Noir Moderne',
+    description: 'Porte intérieure/extérieure en aluminium noir épuré. Design contemporain avec finition chromée discrète.',
+    category: 'porte-aluminium',
+    image: '/images/porte/porte-aluminium-noir.jpg',
+  },
+  {
+    id: 11,
+    name: 'Porte Coulissante Aluminium',
+    description: 'Porte coulissante en aluminium noir avec vitrage moderne en carreaux. Très lumineuse et design épuré.',
+    category: 'porte-aluminium',
+    image: '/images/porte/porte-coulissante-aluminium.jpg',
+  },
+  {
+    id: 12,
+    name: 'Fenêtre Coulissante Aluminium',
+    description: 'Fenêtre coulissante en aluminium noir avec vitrage simple/double. Style minimaliste parfait pour façades modernes.',
+    category: 'fenetre-aluminium',
+    image: '/images/fenetre/fenetre-aluminium.jpg',
+  },
+  {
+    id: 13,
+    name: 'Rampe Escalier Inox Design',
+    description: 'Rampe escalier intérieur en tubes inox/aluminium avec style industriel moderne. Finition chromée très élégante.',
+    category: 'mobilier',
+    image: '/images/mobilier/rampe-escalier.jpg',
+  },
+]
+
+export const productCategories = [
+  { id: 'cuisine', name: 'Cuisines', icon: 'UtensilsCrossed' },
+  { id: 'dressing', name: 'Dressings', icon: 'Shirt' },
+  { id: 'porte-interieur', name: 'Portes Intérieures', icon: 'Door' },
+  { id: 'porte-pivotante', name: 'Portes Pivotantes', icon: 'DoorOpen' },
+  { id: 'porte-aluminium', name: 'Portes Aluminium', icon: 'Rectangle' },
+  { id: 'fenetre-aluminium', name: 'Fenêtres Aluminium', icon: 'Window' },
+  { id: 'mobilier', name: 'Mobilier', icon: 'Couch' },
+]
